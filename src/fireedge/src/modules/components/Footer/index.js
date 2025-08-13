@@ -20,7 +20,7 @@ import { css } from '@emotion/css'
 import { PATH } from '@modules/components/path'
 import { Translate } from '@modules/components/HOC'
 import { StatusChip } from '@modules/components/Status'
-import { BY, SUPPORT_WEBSITE, T } from '@ConstantsModule'
+import { BY, SUPPORT_WEBSITE, T, T_NGC } from '@ConstantsModule'
 import { SupportAPI, SystemAPI } from '@FeaturesModule'
 import { Link as RouterLink, generatePath } from 'react-router-dom'
 
@@ -65,7 +65,7 @@ const Footer = memo(() => {
       }}
     >
       <Typography variant="body2">
-        <Translate word={T.MadeWith} />
+        <Translate word={T_NGC.MadeWith} />
         <HeartIcon role="img" aria-label="heart-emoji" />
         <Link href={BY.url} className={classes.links}>
           {BY.text}

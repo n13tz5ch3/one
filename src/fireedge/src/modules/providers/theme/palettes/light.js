@@ -16,7 +16,7 @@
 import { colors as materialColors, alpha } from '@mui/material'
 import { colors as sunstoneColors } from '@modules/providers/theme/colors'
 
-const primaryColor = sunstoneColors.blue[600]
+const primaryColor = sunstoneColors.red[600] // Colore aziendale #ef4b34
 const secondaryColor = sunstoneColors.grey[600]
 
 export const lightPalette = {
@@ -25,8 +25,8 @@ export const lightPalette = {
   // Primary color for app and MUI library
   primary: {
     main: primaryColor,
-    light: sunstoneColors.blue[500],
-    dark: sunstoneColors.blue[700],
+    light: sunstoneColors.red[500],
+    dark: sunstoneColors.red[700],
     contrastText: '#FFFFFF',
   },
 
@@ -61,19 +61,19 @@ export const lightPalette = {
           borderColor: primaryColor,
         },
         hover: {
-          backgroundColor: sunstoneColors.blue[700],
+          backgroundColor: sunstoneColors.red[700],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.blue[700],
+          borderColor: sunstoneColors.red[700],
         },
         focus: {
-          backgroundColor: sunstoneColors.blue[700],
+          backgroundColor: sunstoneColors.red[700],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.blue[700],
+          borderColor: sunstoneColors.red[700],
         },
         active: {
-          backgroundColor: sunstoneColors.blue[700],
+          backgroundColor: sunstoneColors.red[700],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.blue[700],
+          borderColor: sunstoneColors.red[700],
         },
         disabled: {
           backgroundColor: sunstoneColors.grey[300],
@@ -88,17 +88,17 @@ export const lightPalette = {
           borderColor: primaryColor,
         },
         hover: {
-          backgroundColor: alpha(sunstoneColors.blue[700], 0.12),
-          color: sunstoneColors.darkBlue[500],
+          backgroundColor: alpha(sunstoneColors.red[700], 0.12),
+          color: sunstoneColors.darkGrey[500],
           borderColor: primaryColor,
         },
         focus: {
-          backgroundColor: sunstoneColors.blue[700],
+          backgroundColor: sunstoneColors.red[700],
           color: sunstoneColors.white,
           borderColor: primaryColor,
         },
         active: {
-          backgroundColor: sunstoneColors.blue[700],
+          backgroundColor: sunstoneColors.red[700],
           color: sunstoneColors.white,
           borderColor: primaryColor,
         },
@@ -145,16 +145,16 @@ export const lightPalette = {
         },
         hover: {
           backgroundColor: sunstoneColors.grey[200],
-          color: sunstoneColors.darkBlue[500],
+          color: sunstoneColors.darkGrey[500],
           borderColor: primaryColor,
         },
         active: {
-          backgroundColor: alpha(sunstoneColors.blue[700], 0.12),
+          backgroundColor: alpha(sunstoneColors.red[700], 0.12),
           color: sunstoneColors.darkGrey[400],
           borderColor: primaryColor,
         },
         focus: {
-          backgroundColor: alpha(sunstoneColors.blue[700], 0.12),
+          backgroundColor: alpha(sunstoneColors.red[700], 0.12),
           color: sunstoneColors.darkGrey[400],
           borderColor: primaryColor,
         },
@@ -172,16 +172,16 @@ export const lightPalette = {
         },
         hover: {
           backgroundColor: sunstoneColors.grey[200],
-          color: sunstoneColors.darkBlue[500],
+          color: sunstoneColors.darkGrey[500],
           borderColor: primaryColor,
         },
         active: {
-          backgroundColor: alpha(sunstoneColors.blue[700], 0.12),
+          backgroundColor: alpha(sunstoneColors.red[700], 0.12),
           color: sunstoneColors.darkGrey[400],
           borderColor: primaryColor,
         },
         focus: {
-          backgroundColor: alpha(sunstoneColors.blue[700], 0.12),
+          backgroundColor: alpha(sunstoneColors.red[700], 0.12),
           color: sunstoneColors.darkGrey[400],
           borderColor: primaryColor,
         },
@@ -194,7 +194,7 @@ export const lightPalette = {
       noborder: {
         normal: {
           backgroundColor: 'transparent',
-          color: sunstoneColors.darkBlue[500],
+          color: sunstoneColors.darkGrey[500],
         },
         hover: {
           backgroundColor: 'transparent',
@@ -210,23 +210,23 @@ export const lightPalette = {
       outlined: {
         normal: {
           backgroundColor: 'transparent',
-          color: sunstoneColors.red[200],
-          borderColor: sunstoneColors.red[200],
+          color: sunstoneColors.red[600], // Utilizziamo il colore aziendale per coerenza
+          borderColor: sunstoneColors.red[600],
         },
         hover: {
-          backgroundColor: sunstoneColors.red[200],
+          backgroundColor: sunstoneColors.red[600],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.red[200],
+          borderColor: sunstoneColors.red[600],
         },
         active: {
-          backgroundColor: sunstoneColors.red[200],
+          backgroundColor: sunstoneColors.red[600],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.red[200],
+          borderColor: sunstoneColors.red[600],
         },
         focus: {
-          backgroundColor: sunstoneColors.red[200],
+          backgroundColor: sunstoneColors.red[600],
           color: sunstoneColors.white,
-          borderColor: sunstoneColors.red[200],
+          borderColor: sunstoneColors.red[600],
         },
         disabled: {
           backgroundColor: sunstoneColors.grey[300],
@@ -248,10 +248,10 @@ export const lightPalette = {
       },
       pressed: {
         backgroundColor: sunstoneColors.white,
-        borderColor: sunstoneColors.blue[500],
+        borderColor: sunstoneColors.red[500],
         hover: {
           backgroundColor: sunstoneColors.grey[200],
-          borderColor: sunstoneColors.blue[500],
+          borderColor: sunstoneColors.red[500],
         },
       },
     },
@@ -265,7 +265,7 @@ export const lightPalette = {
   // Info tabs of resources
   tabs: {
     header: {
-      borderColor: sunstoneColors.blue[500],
+      borderColor: sunstoneColors.red[500],
       insideBorderColor: sunstoneColors.grey[400],
       indicatorColor: primaryColor,
       backgroundColor: sunstoneColors.white,
@@ -276,11 +276,11 @@ export const lightPalette = {
       },
       selected: {
         backgroundColor: sunstoneColors.white,
-        color: sunstoneColors.darkBlue[500],
+        color: sunstoneColors.darkGrey[500],
       },
     },
     content: {
-      borderColor: sunstoneColors.blue[500],
+      borderColor: sunstoneColors.red[500],
       backgroundColor: sunstoneColors.white,
     },
   },
@@ -369,8 +369,8 @@ export const lightPalette = {
 
   // Topbar colors
   topbar: {
-    backgroundColor: sunstoneColors.grey[100],
-    color: sunstoneColors.grey[600],
+    backgroundColor: primaryColor, // Utilizziamo il colore aziendale per la topbar
+    color: sunstoneColors.white,
     borderBottomColor: sunstoneColors.grey[400],
   },
 
@@ -490,12 +490,12 @@ export const lightPalette = {
     300: '#e95f48',
     400: '#e34e3b',
     500: '#dd452c',
-    600: '#d73727',
-    700: '#cf231c',
+    600: '#ef4b34', // Colore aziendale
+    700: '#d33f2a',
     800: '#c61414',
     light: '#ee6d58',
-    main: '#cf231c',
-    dark: '#c61414',
+    main: '#ef4b34', // Colore aziendale come main
+    dark: '#d33f2a',
     contrastText: '#FFFFFF',
   },
   warning: {

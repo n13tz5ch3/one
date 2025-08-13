@@ -13,50 +13,9 @@
  * See the License for the specific language governing permissions and       *
  * limitations under the License.                                            *
  * ------------------------------------------------------------------------- */
-
-export const colors = {
-  red: {
-    100: '#FDE0DC',
-    200: '#FBC2B9',
-    300: '#F9A395',
-    400: '#F78572',
-    500: '#F5664E',
-    600: '#EF4B34', // Colore aziendale
-    700: '#D33F2A',
-  },
-  grey: {
-    100: '#F5F5F5',
-    200: '#EDEDED',
-    300: '#E9E9E9',
-    400: '#C7C9C8',
-    500: '#8F9392',
-    600: '#575C5B',
-    700: '#353735',
-  },
-  darkRed: {
-    100: '#B73421',
-    200: '#9B2A17',
-    300: '#7F220E',
-    400: '#631904',
-    500: '#471100',
-  },
-  darkGrey: {
-    100: '#7A7C83',
-    200: '#64656E',
-    300: '#4E505A',
-    400: '#383945',
-    500: '#222431',
-  },
-  yellow: {
-    700: '#DEA700',
-  },
-  black: '#1D1D1D',
-  white: '#FFFFFF',
-  green: {
-    100: '#E8F5E9',
-    200: '#C8E6C9',
-    300: '#A5D6A7',
-    400: '#81C784',
-    500: '#4CAF50',
-  },
+module.exports = {
+  /* footer */
+  MadeWith: 'Modified with',
+  NotOfficiallySupport: 'Not Officially Supported',
+  OfficiallySupport: 'Officially Supported',
 }

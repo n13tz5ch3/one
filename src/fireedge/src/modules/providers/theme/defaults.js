@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and       *
  * limitations under the License.                                            *
  * ------------------------------------------------------------------------- */
+
 import { createTheme, ThemeOptions, colors, alpha } from '@mui/material'
 import { NavArrowDown as ExpandMoreIcon } from 'iconoir-react'
 
@@ -94,12 +95,12 @@ const createAppTheme = (appTheme, mode = SCHEMES.DARK) => {
         300: '#e95f48',
         400: '#e34e3b',
         500: '#dd452c',
-        600: '#d73727',
-        700: '#cf231c',
+        600: '#ef4b34', // Colore aziendale
+        700: '#d33f2a',
         800: '#c61414',
         light: '#ee6d58',
-        main: '#cf231c',
-        dark: '#c61414',
+        main: '#ef4b34', // Colore aziendale come main
+        dark: '#d33f2a',
         contrastText: white,
       },
       warning: {
@@ -366,8 +367,8 @@ const createAppTheme = (appTheme, mode = SCHEMES.DARK) => {
               borderColor: `${currentPalette.primary.light} !important`,
               color: isDarkMode ? white : currentPalette.primary.light,
               backgroundColor: isDarkMode
-                ? alpha(sunstoneColors.blue[700], 0.2)
-                : sunstoneColors.blue[100],
+                ? alpha(sunstoneColors.red[700], 0.2) // Sostituito blue con red
+                : sunstoneColors.red[100], // Sostituito blue con red
             },
           },
         },

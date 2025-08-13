@@ -16,20 +16,59 @@
 
 export default {
   palette: {
-    secondary: {
-      100: '#dff2f8',
-      200: '#bfe6f0',
-      300: '#9fd9e9',
-      400: '#80cce1',
-      500: '#60bfda',
-      600: '#40b3da',
-      700: '#20a6cb',
-      800: '#0099c3',
-      900: '#0284a7',
-      light: '#bfe6f0',
-      main: '#40b3da',
-      dark: '#0099c3',
+    primary: {
+      100: '#fde0dc',
+      200: '#fbc2b9',
+      300: '#f9a395',
+      400: '#f78572',
+      500: '#f5664e',
+      600: '#ef4b34', // Colore aziendale
+      700: '#d33f2a',
+      800: '#b73421',
+      900: '#9b2a17',
+      light: '#f78572',
+      main: '#ef4b34', // Colore aziendale come colore principale
+      dark: '#d33f2a',
       contrastText: '#fff',
+    },
+    secondary: {
+      100: '#f8e4df',
+      200: '#f2c9c0',
+      300: '#ebada0',
+      400: '#e59181',
+      500: '#de7661',
+      600: '#d75a42',
+      700: '#c14a34',
+      800: '#a83b26',
+      900: '#8f2c18',
+      light: '#e59181',
+      main: '#d75a42', // Tonalità complementare al colore aziendale
+      dark: '#c14a34',
+      contrastText: '#fff',
+    },
+    error: {
+      main: '#ef4b34', // Utilizziamo il colore aziendale anche per gli errori
+      light: '#f78572',
+      dark: '#d33f2a',
+      contrastText: '#fff',
+    },
+    warning: {
+      main: '#ff9800',
+      contrastText: '#fff',
+    },
+    success: {
+      main: '#4caf50',
+      contrastText: '#fff',
+    },
+    // Aggiungiamo anche queste proprietà per garantire che l'interfaccia
+    // sia completamente coerente, incluso il footer e la topbar
+    footer: {
+      color: '#fff',
+      backgroundColor: '#ef4b34',
+    },
+    topbar: {
+      background: '#ef4b34',
+      color: '#fff',
     },
   },
 }

@@ -17,8 +17,8 @@ import * as Setting from '@modules/constants/setting'
 
 export const JWT_NAME = 'FireedgeToken'
 
-export const BY = { text: 'by OpenNebula', url: 'https://opennebula.io/' }
-export const SUPPORT_WEBSITE = 'https://opennebula.io/support/'
+export const BY = { text: 'by NextGCloud', url: 'https://www.nextgcloud.com/' }
+export const SUPPORT_WEBSITE = 'https://www.nextgcloud.com/contact/'
 export const COMMUNITY_WEBSITE = 'https://opennebula.io/usec'
 export const AUTH_APPS = [
   { text: 'Authy', url: 'https://authy.com/download/' },
@@ -205,6 +205,7 @@ export const RESOURCE_NAMES = {
 }
 
 export * as T from '@modules/constants/translates'
+export * as T_NGC from '@modules/constants/ngc-translates'
 
 export * from '@modules/constants/acl'
 export * as ACTIONS from '@modules/constants/actions'
